@@ -1,0 +1,12 @@
+1. How long did you spend working on this project?
+    Almost a day. I wasn't concentrating properly, because of weekend.
+
+2. What was the most rewarding challenge you conquered?
+    Well, I finished this project.
+
+3. What two additional features did you build? Why?
+    * Feature 1: Get out of stock items
+    * Feature 2: Revert a transaction and add product to stock.
+
+4. Where do you still have room to grow?
+    Not confusing with classmethods and ordinary methods.

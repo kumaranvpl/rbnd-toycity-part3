@@ -70,7 +70,7 @@ puts transaction2.product == nanoblock # Should return true
 # Feature 1: Get out of stock items
 puts Product.out_of_stock
 
-# Feature two: Revert a transaction and add product to stock.
+# Feature 2: Revert a transaction and add product to stock.
 puts Transaction.all.count # Should returns 2
 puts nanoblock.stock # Should returns 10
 transaction2.revert
