@@ -24,10 +24,10 @@ class Transaction
     end
   end
 
-  #def revert
-  #  @product.stock += 1
-  #  @@transactions.delete_if { |transaction| transaction.id == @id }
-  #end
+  def revert
+    @product.stock += 1
+    @@transactions.delete_if { |transaction| transaction.id == @id }
+  end
 
   private
 
