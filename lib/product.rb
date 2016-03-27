@@ -27,9 +27,9 @@ class Product
     @@products.select { |product| product.in_stock? }
   end
 
-  #def self.out_of_stock
-  #  @@products.select { |product| !product.in_stock? }
-  #end
+  def self.out_of_stock
+    @@products.select { |product| !product.in_stock? }
+  end
 
   def in_stock?
     @stock > 0
